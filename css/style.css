@@ -1,2 +1,62 @@
 /* Journey to the Center of the Earth Practicum */
 /*Evren Riley Yucekus-Kissane*/
+
+
+/*Main structural elements*/
+
+
+/*iPhone 6/7/8*/
+@media screen and (min-width: 23em) {
+
+    header {
+        border: solid #886644 3px;
+        box-shadow: inset .4em .4em .9em .3em grey;
+        max-width: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        margin: .3rem .3rem .3rem .3rem;
+        padding: .5rem 1rem .5rem 1rem;
+        font-size: 1.1rem;    
+        text-align: center;
+    
+    }
+    nav {
+        border: solid #886644 3px;
+        box-shadow: inset .4em .4em .9em .3em grey;
+        max-width: 100%;
+        margin: .3rem .3rem .3rem .3rem;
+        padding-top: .1rem;
+    }
+    img {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        Padding-bottom: 20px
+    }
+    main {
+        border: solid #886644 3px;
+        box-shadow: inset .4em .4em .9em .3em grey;
+        max-width: 100%;
+        margin: .3rem .3rem .3rem .3rem;
+        padding: 1rem .5rem 1rem .5rem;
+    }
+    aside {
+        border: solid #886644 3px;
+        box-shadow: inset .4em .4em .9em .3em grey;
+        max-width: 100%;
+        margin: .3rem .3rem .3rem .3rem;
+        padding: 20px 10px 20px 10px;
+    }
+    footer {
+        border: solid #886644 3px;
+        box-shadow: inset .4em .4em .9em .3em grey;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        max-width: 100%;
+        margin: .3rem .3rem .3rem .3rem;
+        padding: 20px 10px 20px 10px;
+    }
+
+
+}
