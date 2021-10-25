@@ -1,0 +1,253 @@
+/* Journey to the Center of the Earth Practicum */
+/*Evren Riley Yucekus-Kissane*/
+header {
+    border: solid #886644 3px;
+    box-shadow: inset .4em .4em .9em .9em black;
+    max-width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: .3rem .3rem .3rem .3rem;
+    padding: .5rem 1rem .5rem 1rem;
+    font-size: 1.1rem;    
+    text-align: center;
+}
+nav {
+    border: solid #886644 3px;
+    box-shadow: inset .4em .4em .9em .3em grey;
+    max-width: 100%;
+    margin: .3rem .3rem .3rem .3rem;
+}
+main img {
+    max-width: 65%;
+    padding-right: 25px;
+    Padding-bottom: 25px;
+    float: left;
+}
+main {
+    border: solid #886644 3px;
+    box-shadow: inset .4em .4em .9em .3em grey;
+    max-width: 100%;
+    margin: .3rem .3rem .3rem .3rem;
+    padding: 1rem .5rem 1rem .5rem;
+}
+aside {
+    border: solid #886644 3px;
+    box-shadow: inset .4em .4em .9em .3em grey;
+    max-width: 100%;
+    margin: .3rem .3rem .3rem .3rem;
+    padding: 20px 10px 20px 10px;
+}
+footer {
+    border: solid #886644 3px;
+    box-shadow: inset .4em .4em .9em .3em grey;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    max-width: 100%;
+    margin: .3rem .3rem .3rem .3rem;
+    padding: 20px 10px 20px 10px;
+}
+/*Font Style*/
+h1 {
+    font: Georgia;
+    color: white;
+    font-size: 35px;
+    text-shadow: 10px 10px 7px  black;
+}
+p{
+    font-size: 14px;
+}
+/*  WORK ON SPACING  WORK ON SPACING  WORK ON SPACING   WORK ON SPACING WORK ON SPACING*/
+nav li{
+    list-style: none;
+    justify-content: center;
+    display: inline-block;
+    font-weight: 900;
+    font-size: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+/*  WORK ON SPACING  WORK ON SPACING  WORK ON SPACING   WORK ON SPACING WORK ON SPACING*/
+
+nav li:nth-last-of-type(1){
+    border-right: none;
+}
+nav li:nth-of-type(1){
+    border-left: none;
+}
+main p:nth-of-type(1)::first-line{
+    font-size: 20px;
+}
+:lang(fr) {
+    font-style: italic;
+}
+:lang(is) {
+    font-style: italic;
+}
+:lang(it) {
+    font-style: italic;
+}
+:lang(id) {
+    font-style: italic;
+}
+.character {
+    font-weight: 700;
+}
+h2:after /*Author-dir & Link-https://stackoverflow.com/questions/68442307/how-to-make-a-horizontal-line-without-using-hr-tag*/{
+    content: "";
+    display: block;
+    border-bottom: solid 1px black
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #A52A2A;
+    text-decoration: underline;
+}
+a:active {
+    color: black;
+    text-decoration: none;
+}
+/*main/sub elements*/
+body {
+    background: linear-gradient(#765729, black)
+}
+
+/*  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS */ 
+header {
+    background-image: url("/img/cave.jpg");   
+    background-size: 100% 100%;
+}
+/*  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS */ 
+
+nav{
+    background: white;
+    opacity: 75%;
+    text-align: center;
+}
+main {
+    background: white;
+    opacity: 75%;
+}
+aside {
+    background: white;
+    opacity: 75%;
+}
+
+
+/*  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS */ 
+aside div{
+
+}
+.submission{
+    border: solid 3px black;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+.opinion{
+    text-align: center;
+}
+.signature{
+    text-align: right;
+    font-style: italic;
+}
+aside div.opinion:nth-of-type(1){
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/*  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS  WORK ON THIS */ 
+#cryptogram{
+    text-align: center;
+}
+#crypto-img{
+    max-width: 100%;
+}
+#crypto-caption{
+    max-width: 100%;
+}
+footer {
+    background: white;
+    opacity: 75%;
+    text-align: center;
+}
+
+
+/*iPhone 6/7/8*/
+@media screen and (min-width: 48em) {
+
+    /*Main structural elements*/
+
+    header {
+        grid-column: 1/-1;
+    }
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    nav {
+        grid-column: 1/-1;
+    }
+    main img {
+    max-width: 20%;
+    }
+    main {
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    aside {
+        grid-column: 1/4;
+        grid-row: 4/5;
+    }
+    footer {
+        grid-column: 1/-1;
+    }
+
+    /*font styles*/
+    h1 {
+        font-size: 40px;
+    }
+
+}
+
+@media screen and (min-width: 64em) {
+    header {
+        grid-column: 1/-1;
+    }
+    /*Link-https://designers.hubspot.com/docs/snippets/design/centering-your-website-using-max-width-and-auto-margins*/
+    body{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        max-width: 1200px;
+        margin: 0 auto;
+        float: none;
+    }
+    nav {
+        grid-column: 1/-1;
+    }
+    main img {
+    max-width: 20%;
+    }
+    main {
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+    aside {
+        grid-column: 3;
+        grid-row: 3/4;
+    }
+    footer {
+        grid-column: 1/-1;
+    }
+
+    /*font styles*/
+    h1 {
+        font-size: 65px;
+    }
+}
